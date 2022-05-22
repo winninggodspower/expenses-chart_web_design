@@ -19,7 +19,7 @@ div.container{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: hsl(33, 100%, 98%);
+    background-color: #F7E9DC;
 }
 
 div.inner-container{
