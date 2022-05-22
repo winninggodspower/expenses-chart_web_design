@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+html{
+    font-family: 'DM Sans', sans-serif;
+}
+
+div.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(33, 100%, 98%);
+}
+
+div.inner-container{
+    width: 400px;
+    max-width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+/* styles for headers */
+div.header{
+    padding: 1.5em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(10, 79%, 65%);
+    color: white;
+}
+
+div.header .opacity-low{
+    margin-bottom: 3em !important;
+}
+
+div.header div.balance{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+div.circles{
+    display: flex;
+}
+
+div.circles div{
+    width: 35px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+div.circles div.white-circle{
+    border: 2px solid white;
+    transform: translateX(15px);
+}
+
+div.circles div.dark-circle{
+    background-color: black;
+}
+
+/* styling for body */
+div.body{
+    border-radius: 15px;
+    margin-top: 3%;
+    padding: 1.5em;
+    background-color: white;
+}
+
+h2{
+    margin-bottom: 10%;
+    font-weight: normal;
+}
+
+div.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.total-amount, div.discount{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+div.total{
+    font-size: 1.5em;
+}
+
+
+/* important styling */
+span.opacity-low{
+    opacity: 50% !important;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+
+hr{
+    opacity: 50%;
+    --mx: 5%;
+    margin-top: var(--mx);
+    margin-bottom: var(--mx);
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script> -->
+  <link rel="stylesheet" href="./main.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="inner-container">
+      <div class="header">
+        <div class="my-balance">
+          <span class="opacity-low">My balance</span>
+          <div class="balance">$921.48</div>
+        </div>
+        <div class="circles">
+          <div class="white-circle"></div>
+          <div class="dark-circle"></div>
+        </div>
+      </div>
+      <div class="body">
+        <h2>Spending - Last 7 days</h2>
+        <div class="chart">
+          <canvas id="myChart" width="100%"></canvas>
+        </div>
+        <hr>
+        <div class="footer">
+          <div class="total-amount">
+            <span class="opacity-low">Total this month</span>
+            <div class="total fw-bold">$478.33</div>
+          </div>
+          <div class="discount">
+            <span class="fw-bold">+2.4%</span>
+            <span class="opacity-low">from last month</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Winning Godspower</a>.
+  </div>
+  <script src="./Chart.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
+
+<div hidden>
+  My balance
+$921.48
+
+Spending - Last 7 days
+
+mon
+tue
+wed
+thu
+fri
+sat
+sun
+
+Total this month
+$478.33
+
++2.4%
+from last month
+</div>
