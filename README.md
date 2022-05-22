@@ -13,11 +13,10 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+The expenses is gotten from used for the chart is gotten from a json file and is plotted using chart.js library.
 
 ### The challenge
 
@@ -38,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-expenses-chart-web-design-BUW53wxTcU)
+- Live Site URL: [Add live site URL here](https://winninggodspower.github.io/expenses-chart_web_design/)
 
 ## My process
 
