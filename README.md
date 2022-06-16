@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-expenses-chart-web-design-BUW53wxTcU)
-- Live Site URL: [Add live site URL here](https://winninggodspower.github.io/expenses-chart_web_design/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-expenses-chart-web-design-BUW53wxTcU](https://www.frontendmentor.io/solutions/responsive-expenses-chart-web-design-BUW53wxTcU)
+- Live Site URL: [https://winninggodspower.github.io/expenses-chart_web_design/](https://winninggodspower.github.io/expenses-chart_web_design/)
 
 ## My process
 
@@ -61,4 +61,4 @@ I learnt how to use the chart.js module to build the project. also got more expe
 ## Author
 
 - Website - [winnng godspower](https://winningtech.tk)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/winninggodspower)
+- Frontend Mentor - [@winninggodspower](https://www.frontendmentor.io/profile/winninggodspower)
